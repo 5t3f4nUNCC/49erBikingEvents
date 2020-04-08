@@ -3,6 +3,8 @@
 Welcome to 49er Biking Events! This is a project I developed over the Fall 2019 semester for Network-Based Application Development.
 The project highlights full stack development and the use of JSP and JSTL, developed using Netbeans and Tomcat Apache with Java as the back-end language. (I used Netbeans IDE 8.2, Apache Tomcat 8.5.46, MySQL 8.0, and JDK 1.8) The project details are below. Further details on the layout and use of each of the web pages can be found at User Manual.pdf.
 
+A demo database to be used with this application can be found at https://github.com/StefanDybka/49erBikingEventsDatabase. I do not own any of the photos use in the example events, credit goes to their original creators. You will have to add a user to your sql server for the application to access it correctly. You must also add the user credentials to the context.xml file under the web/META-INF/ folder
+
 1.	Project overview:
 
 49er Mountain Biking Events is a webpage to help organize people in the local area of the University of North Carolina at Charlotte who like biking. Events range from road trips around campus to downhill travel adventures. Users can create events which will be posted on the website for others to rsvp to. Targeted at UNCC students, providing them a way to ask others on group bike rides and see others that are interested, but could also be expanded to residents surrounding the UNCC area.
