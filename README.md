@@ -1,7 +1,7 @@
 # 49erBikingEvents
 
 Welcome to 49er Biking Events! This is a project I developed over the Fall 2019 semester for Network-Based Application Development.
-Developed using Netbeans and Tomcat Apache with Java as the back-end language. The project details are below. Install instructions can be found at install.md and further details on the layout and use of each of the web pages can be found at User Manual.pdf
+The project highlights full stack development and the use of JSP and JSTL, developed using Netbeans and Tomcat Apache with Java as the back-end language. (I used Netbeans IDE 8.2, Apache Tomcat 8.5.46, MySQL 8.0, and JDK 1.8) The project details are below. Further details on the layout and use of each of the web pages can be found at User Manual.pdf.
 
 1.	Project overview:
 
