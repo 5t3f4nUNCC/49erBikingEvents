@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Saved Events</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header class="secondary">
+            <nav class="navbar navbar-expand-md navbar-dark accent navbar-static-top" role="navigation">
+                <a class="navbar-brand m-0" href="index.html">49er Mountain Biking</a>
+                    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="ml-auto navbar-nav">
+                        <a class="nav-item nav-link" href="#">Create a new event</a>
+                        <a class="nav-item nav-link" href="#">My events</a>
+                        <a class="nav-item nav-link" href="index.html">Log out</a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="mt-2 navbar navbar-dark accent">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="events.html">Events</a>
+                </div>
+                <span class="ml-auto text-primary align-middle">Welcome Stefan!</span>
+            </nav>
+        </header>
+        
+        <div class="container row grow justify-content-center align-self-center my-2">
+            <div class="col-12 my-auto">
+                <div class="card card-block center-block primary">
+                    <h4>Saved Events</h4>
+                    <div class="table-responsive-md">
+                    <table class="table accent2 p-2">
+                        <thead class="text-center">
+                            <tr>
+                                <th scope="col">Trail Name</th>
+                                <th scope="col">Trail Type</th>
+                                <th scope="col">People Going</th>
+                                <th scope="col">Going?</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center">
+                                <th scope="row">
+                                    <a href="event.html" class="w-100">
+                                        <div class="container row m-0">
+                                            <div class="col">
+                                                <img src="pictures/bailey.jpg" alt="" class="img-fluid" title="From https://mtbparks.com/North-Carolina/299-Bailey-Mountain-Bike-Park/View-details.html">
+                                            </div>
+                                            <div class="col text-left align-self-center">Bailey Mountain Bike Park</div>
+                                        </div>
+                                        
+                                        
+                                    </a>
+                                </th>
+                                <td class="align-middle">Downhill</td>
+                                <td class="align-middle">16</td>
+                                <td class="align-middle">Maybe</td>
+                                <td class="align-middle">
+                                    <div class="btn-group" role="group" aria-label="Event tools">
+                                        <a class="btn btn-warning" href="event.html" role="button">Edit</a>
+                                        <a class="btn btn-danger" href="savedEvents.html" role="button">Remove</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            <tr class="text-center">
+                                <th scope="row">
+                                    <a href="event.html" class="w-100">
+                                        <div class="container row m-0">
+                                            <div class="col">
+                                                <img src="pictures/sherman.jpg" class="img-fluid" alt="" title="From https://www.singletracks.com/bike-trails/sherman-branch-park-mtb-trail.html">
+                                            </div>
+                                            <div class="col text-left align-self-center">Sherman</div>
+                                        </div>
+                                    </a>
+                                </th>
+                                <td class="align-middle">Trail</td>
+                                <td class="align-middle">3</td>
+                                <td class="align-middle">Yes</td>
+                                <td class="align-middle">
+                                    <div class="btn-group" role="group" aria-label="Event tools">
+                                        <a class="btn btn-warning" href="event.html" role="button">Edit</a>
+                                        <a class="btn btn-danger" href="savedEvents.html" role="button">Remove</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer accent">
+            <nav class="navbar navbar-expand-md navbar-dark accent pt-0 pb-0" id="navbar">
+                    <span class="navbar-brand m-0">©49er Mountain Biking</span>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFooter" aria-controls="navbarFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarFooter">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link">Contact us</a>
+                            <a class="nav-item nav-link">About us</a>
+                        </div>
+                    </div>
+            </nav>
+        </footer>
+    </body>
+</html>
+

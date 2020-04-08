@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2019, 2:59:26 PM
+    Author     : stefa
+*/
+
+html {
+    position:relative;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: burlywood;
+    background-image: url(/49er_Mountain_Biking/pictures/tread.png);
+    background-size: cover;
+}
+
+.primary {
+    background-color: #7D7E75;
+}
+
+.text-primary {
+    color: #ffffff!important;
+}
+
+.secondary {
+    background-color: #4F5D2F;
+}
+
+.accent {
+    background-color: #423629;
+}
+
+.accent2 {
+    background-color: #CFD6EA;
+}
+
+.grow {
+   flex-grow: 1;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 56px;
+    line-height: 40px;
+}

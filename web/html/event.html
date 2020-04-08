@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Event</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header class="secondary">
+            <nav class="navbar navbar-expand-md navbar-dark accent">
+                <a class="navbar-brand m-0" href="index.html">49er Mountain Biking</a>
+                    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="ml-auto navbar-nav">
+                        <a class="nav-item nav-link" href="#">Create a new event</a>
+                        <a class="nav-item nav-link" href="savedEvents.html">Log in</a>
+                        <a class="nav-item nav-link" href="#">Sign up</a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="mt-2 navbar navbar-dark accent">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="events.html">Events</a>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="container row grow justify-content-center align-self-center my-2">
+            <div class="col-12 my-auto">
+                <div class="card card-block center-block primary align-items-center">
+                    <div class="container row">
+                        <div class="col-lg">
+                            <h3>Bailey Mountain Bike Park</h3>
+                            <div class="row">
+                                <div class="col-lg my-2 p-0">
+                                    <img src="pictures/bailey.jpg" class="img-fluid" alt="" title="From https://mtbparks.com/North-Carolina/299-Bailey-Mountain-Bike-Park/View-details.html">
+                                </div>
+                                <div class="col align-self-center">
+                                    <p>Saturday, September 5th</p>
+                                    <p>
+                                        1370 Bone Camp Rd<br>
+                                        Marshall, NC 28753
+                                    </p>
+                                    <p>$100 (Gas and ticket price)</p>
+                                    <p>
+                                        16 going<br>
+                                        8 Seats available
+                                    </p>
+                                </div>
+                            </div>
+                        </div>              
+                        <div class="col accent2 align-self-center">
+                            <div class="form-group text-center">
+                                Are you going?<br>
+                                <a class="btn btn-success" href="savedEvents.html" role="button">Yes</a>
+                                <a class="btn btn-warning" href="savedEvents.html" role="button">Maybe</a>
+                                <a class="btn btn-danger" href="savedEvents.html" role="button">No</a>
+                                <div class="col-xs-2">
+                                    <input type="checkbox" class="form-check-input" >
+                                    <label class="text-muted">I can drive others</label><br>
+                                    <label class="text-muted">How many?</label>
+                                    <input type="text" class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container row">
+                        <div class="col">
+                            <h4>Description</h4>
+                        <p>Come along for our quarterly Bailey ride!</p>
+                        <p>Downhill mountain-bike park featuring narrow, steep trails in picturesque surrounds.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer accent">
+            <nav class="navbar navbar-expand-md navbar-dark accent pt-0 pb-0" id="navbar">
+                    <span class="navbar-brand m-0">©49er Mountain Biking</span>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFooter" aria-controls="navbarFooter" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarFooter">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link">Contact us</a>
+                            <a class="nav-item nav-link">About us</a>
+                        </div>
+                    </div>
+            </nav>
+        </footer>
+    </body>
+</html>
